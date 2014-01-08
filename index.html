@@ -10,6 +10,7 @@
         <title>DannaWay</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr.min.js"></script>
     </head>
@@ -18,12 +19,25 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="portfolio">
-          <div class="face">
-            <div id="face-0" class="coder-img" data-width="420"></div>
-            <div id="face-1" class="color-img" data-width="420"></div>
-          </div>
-        </div>
+        <div id="face" class="face">
+			<div id="designer" class="designer" style="opacity: 1;">
+				<div id="designer-desc" class="description">
+					<h1>designer</h1>
+					<p>User Interface Designer with a passion for designing beautiful and functional user experiences. Minimalist who believes that less is more.</p>
+				</div>
+			</div>
+			<div id="coder" class="coder" style="opacity: 1;">
+				<div id="coder-desc" class="description">
+					<h1>coder</h1>
+					<p>Front End Developer who focuses on writing clean, elegant and efficient code. Love HTML5, CSS3, WordPress  and a touch of jQuery.</p>
+				</div>
+			</div>
+			<img id="face-img" class="face-img" src="img/designer-coder.jpg" alt="ui designer">
+			<div id="designer-img" class="designer-img" style="left: 100px; opacity: 1;"></div>
+			<div id="coder-img" class="coder-img" style="right: 100px; opacity: 1;"></div>
+			<div id="designer-bg" class="designer-bg" style="left: 100px; opacity: 1;"></div>
+			<div id="coder-bg" class="coder-bg" style="right: 100px; opacity: 1;"></div>
+		</div>
         
         <script src="js/vendor/jquery.min.js"></script>
         <script src="js/main.js"></script>
