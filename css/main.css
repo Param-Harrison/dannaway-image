@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .portfolio {
+    position: relative;
+    cursor: pointer;
+  }
+  .face {
+    width: 100%;
+    max-width: 1040px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .color-img, .coder-img {
+    width: 420px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    background: url(../img/sprite-home.png) 0 0 no-repeat;
+    display: block;
+    z-index: 1;
+  }
+  .color-img {
+    background-position: 0 -600px;
+    left: 100px;
+  }
+  .coder-img {
+    background-position: 100% 0;
+    right: 100px;
+  }
